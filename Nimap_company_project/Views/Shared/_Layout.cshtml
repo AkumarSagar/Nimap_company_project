@@ -1,0 +1,23 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Layout</title>
+</head>
+<body>
+    <div>
+        <ol>
+            <li>
+                @Html.ActionLink("Categories","DisplayCategories","Category")
+            </li>
+            <li>@Html.ActionLink("Products","DisplayProducts","Product")</li>
+        </ol>
+    </div>
+</body>
+</html>
